@@ -1,0 +1,162 @@
+.title-box
+{
+	background: orange;
+	color: #fff;
+	width: 180px;
+	padding: 4px 10px;
+	height: 40px;
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.title-box h2
+{
+	font-size: 24px;
+}
+.title-box::after
+{
+	content: '';
+	border-top: 40px solid orange;
+	border-right: 50px solid transparent;
+	position: absolute;
+	display: flex;
+	margin-top: -4px;
+	margin-left: 170px;
+}
+
+.product-top img
+{
+	width: 100%;
+	height: 10cm;
+}
+.overlay-right
+{
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	margin-left: 0;
+	width: 70px;
+}
+
+.overlay-right .fa
+{
+	cursor: pointer;
+	background-color: #fff;
+	color: #000;
+	height: 35px;
+	width: 35px;
+	font-size: 20px;
+	padding: 7px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.overlay-right .btn-secondary
+{
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.product-top:hover .overlay-right
+{
+	opacity: 1;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+
+.product-bottom .fa
+{
+	color: orange;
+	font-size: 10px;
+}
+.product-bottom h3
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.product-bottom h5
+{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+/*-----------------------Single Product------------------------------*/
+.single-product
+{
+	margin-top: 70px;
+	margin-left: -150px;
+
+}
+
+.new-arrival
+{
+	background: green;
+	width: 50px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.carousel-item active img
+{
+	width: 100%;
+	height: 13cm;
+}
+
+.carousel-item img
+{
+	width: 100%;
+	height: 13cm;
+}
+
+.single-product .fa
+{
+	color: orange;
+}
+
+.single-product .price
+{
+	color: rgb(165, 111, 11);
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.single-product input
+{
+	border: 1px solid #ccc;
+	font-weight: bold;
+	height: 33px;
+	text-align: center;
+	width: 30px;
+}
+
+.single-product .btn-primary
+{
+	background: orange !important;
+	color: #fff;
+	font-size: 15px;
+	margin-left: 20px;
+	border: none;
+	box-shadow: none !important;
+}
+
+.product-description h6
+{
+margin-left: -75px;
+margin-top: 50px;
+color: orange;
+}
+
+.product-description p
+{
+margin-left: -75px;
+margin-top: 30px;
+}
+
+.product-description hr
+{
+
+	margin-bottom: 50px;
+}
